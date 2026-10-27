@@ -1,4 +1,0 @@
-class,queries,requested_new,downloaded_new,manifest_records_total,unreadable_total,readable_total,at_risk_under_300
-claw-hammer,3,0,0,400,0,400,False
-ball-peen-hammer,3,0,0,400,0,400,False
-sledgehammer,3,0,0,400,0,400,False
