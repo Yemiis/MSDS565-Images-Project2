@@ -1,0 +1,6 @@
+,width,width,width,height,height,height,aspect_ratio,aspect_ratio,aspect_ratio
+,min,max,median,min,max,median,min,max,median
+label,,,,,,,,,
+ball-peen-hammer,250.0,4032.0,1000.0,250.0,3447.0,1000.0,0.602158273381295,2.0,1.0
+claw-hammer,265.0,4386.0,1000.0,236.0,4096.0,956.0,0.523771152296535,2.0,1.0
+sledgehammer,250.0,4608.0,1000.0,250.0,3719.0,900.0,0.513713862120089,2.0,1.0

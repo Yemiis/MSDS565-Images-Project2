@@ -1,0 +1,4 @@
+label,acquired,readable_N1,retained,removed_during_manual_cleaning,unreadable_N1,clears_200
+claw-hammer,400,400,395,5,0,True
+ball-peen-hammer,400,400,394,6,0,True
+sledgehammer,400,400,397,3,0,True

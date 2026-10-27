@@ -1,0 +1,25 @@
+{
+  "class_queries": {
+    "claw-hammer": [
+      "claw hammer tool photograph",
+      "claw hammer workshop",
+      "claw hammer wooden handle"
+    ],
+    "ball-peen-hammer": [
+      "ball peen hammer tool photograph",
+      "ball pein hammer workshop",
+      "ball peen hammer wooden handle"
+    ],
+    "sledgehammer": [
+      "sledgehammer tool photograph",
+      "sledge hammer workshop",
+      "sledgehammer wooden handle"
+    ]
+  },
+  "predicted_confusion_pair": [
+    "claw-hammer",
+    "ball-peen-hammer"
+  ],
+  "reason": "Both classes have similar handles and proportions. An oblique or cropped view can hide the distinguishing claw or rounded peen.",
+  "config_sha256": "8b9149aa11153cfffdf72a512313496224473f930e0da60d8516401a8d4ccdff"
+}

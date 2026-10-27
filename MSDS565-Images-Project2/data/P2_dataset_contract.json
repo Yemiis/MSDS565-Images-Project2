@@ -1,0 +1,87 @@
+{
+  "data_root": "C:\\Users\\lawra\\Fall 2026-2027 Semester Document\\MSDS 565-01\\Project 2 Image Classification\\Images",
+  "raw_subdirectory": "raw",
+  "class_queries": {
+    "claw-hammer": [
+      "claw hammer tool photograph",
+      "claw hammer workshop",
+      "claw hammer wooden handle"
+    ],
+    "ball-peen-hammer": [
+      "ball peen hammer tool photograph",
+      "ball pein hammer workshop",
+      "ball peen hammer wooden handle"
+    ],
+    "sledgehammer": [
+      "sledgehammer tool photograph",
+      "sledge hammer workshop",
+      "sledgehammer wooden handle"
+    ]
+  },
+  "config": {
+    "project_title": "Project 2: Image Classification",
+    "data_root": "C:\\Users\\lawra\\Fall 2026-2027 Semester Document\\MSDS 565-01\\Project 2 Image Classification\\Images",
+    "class_plan_status": "Declared three-class hammer dataset",
+    "class_queries": {
+      "claw-hammer": [
+        "claw hammer tool photograph",
+        "claw hammer workshop",
+        "claw hammer wooden handle"
+      ],
+      "ball-peen-hammer": [
+        "ball peen hammer tool photograph",
+        "ball pein hammer workshop",
+        "ball peen hammer wooden handle"
+      ],
+      "sledgehammer": [
+        "sledgehammer tool photograph",
+        "sledge hammer workshop",
+        "sledgehammer wooden handle"
+      ]
+    },
+    "confusion_prediction": [
+      "claw-hammer",
+      "ball-peen-hammer"
+    ],
+    "confusion_reason": "Both classes have similar handles and proportions. An oblique or cropped view can hide the distinguishing claw or rounded peen.",
+    "classes_confirmed": true,
+    "images_per_class": 400,
+    "results_per_query": 300,
+    "min_resolution": [
+      224,
+      224
+    ],
+    "aspect_ratio_range": [
+      0.5,
+      2.0
+    ],
+    "per_image_timeout": 10,
+    "backend": "bing",
+    "safesearch": "moderate",
+    "region": "us-en",
+    "require_query_match": true,
+    "query_delay": [
+      2.0,
+      5.0
+    ],
+    "seed": 42,
+    "target_size": [
+      224,
+      224
+    ],
+    "resize_strategy": "pad",
+    "padding_rgb": [
+      127,
+      127,
+      127
+    ],
+    "applications": [
+      "mobilenetv2",
+      "resnet50",
+      "efficientnetv2m"
+    ],
+    "epochs": 25,
+    "batch_size": 16,
+    "learning_rate": 0.001
+  }
+}
