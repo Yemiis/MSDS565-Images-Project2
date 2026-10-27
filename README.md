@@ -2,8 +2,6 @@
 
 I built a custom three-class hammer classifier and compared frozen MobileNetV2, ResNet50 and EfficientNetV2M backbones with trained single-Dense softmax probes. The Streamlit app shows every model's prediction, sorted class probabilities and three explanation overlays for an uploaded image.
 
-**Start here:** [Windows app instructions](docs/RUN_STREAMLIT_WINDOWS.md). You can run the app directly from the supplied models; retraining and the external image dataset are not required for app inference.
-
 ## Classes and acquisition
 
 | Class | Distinguishing feature | Exact queries |
