@@ -60,15 +60,10 @@ The app runs locally and does not require GitHub Pages, public hosting, or a dat
 MSDS565-Images-Project2/
   README.md
   environment.yml
-  requirements-app.txt
   data/          # source manifest and aggregate CSV/JSON evidence; no images
   models/        # supplied small trained probes, mappings and result tables
   notebooks/     # four canonical notebooks and supplied helpers
   app/           # Streamlit entrypoint, shared preprocessing and supplied helper
-  docs/          # run guide, live-demo guide, GitHub steps and submission status
-  scripts/       # environment export, launch and validation
-  tests/         # app and preprocessing checks
-  .streamlit/    # local server and theme settings; no credentials
 ```
 
 The filename token is `Project2` wherever the prompt uses `<TeamName>`. It contains no student's name and does not use Team 1. The displayed project title remains **Project 2: Image Classification**. Three probe files are under 100 KB each; Git LFS is unnecessary. Pretrained backbones download into the Keras cache outside the repository.
