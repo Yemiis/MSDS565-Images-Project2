@@ -1,4 +1,0 @@
-application,region,baseline_accuracy,occluded_accuracy,accuracy_drop,occluded_fraction,reason
-mobilenetv2,outer_10_percent_border,0.9033613445378151,0.8151260504201681,0.08823529411764708,0.35427295918367346,Predeclared border/padding sensitivity audit; not an assumed shortcut.
-resnet50,outer_10_percent_border,0.9369747899159664,0.8235294117647058,0.11344537815126055,0.35427295918367346,Predeclared border/padding sensitivity audit; not an assumed shortcut.
-efficientnetv2m,outer_10_percent_border,0.9453781512605042,0.8697478991596639,0.07563025210084029,0.35427295918367346,Predeclared border/padding sensitivity audit; not an assumed shortcut.
