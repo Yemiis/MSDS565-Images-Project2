@@ -74,16 +74,3 @@ MSDS565-Images-Project2/
 The filename token is `Project2` wherever the prompt uses `<TeamName>`. It contains no student's name and does not use Team 1. The displayed project title remains **Project 2: Image Classification**. Three probe files are under 100 KB each; Git LFS is unnecessary. Pretrained backbones download into the Keras cache outside the repository.
 
 The four notebooks retain their executed outputs, as the prompt requires. Images embedded in those required outputs remain in the notebooks; there are no standalone scraped/cleaned image files or `.npy` arrays in this package. Do not add `Images.zip`, `Images/raw`, `Images/prepared`, caches or checkpoints.
-
-## GitHub and submission status
-
-Follow [GitHub upload steps](docs/GITHUB_UPLOAD.md). This package is organized for GitHub but has not been uploaded to an account. Retain the real manifest and model files; do not replace recorded hashes to suppress errors.
-
-Before final submission:
-
-1. Export the actual notebook conda environment after installing Streamlit: `conda env export --no-builds > environment.yml`, or use `scripts/export_environment.ps1`.
-2. Finish Notebook 4's visual-review CSV and deployment judgment. The source upload contains 18 unfinished case rows and six blank deployment fields.
-3. Rerun the cleaned notebooks top-to-bottom locally with the external dataset if required. Unexecuted scratch deletion code and erroneous placeholder save cells were removed; existing executed outputs were retained. No fresh notebook execution is claimed.
-4. Complete the live class demonstration and actual meeting minutes. Submit your individual peer evaluation separately; do not invent records or commit private peer feedback to the shared repo.
-
-See [submission status](docs/SUBMISSION_STATUS.md) for the remaining rubric items and [app code walkthrough](docs/APP_WALKTHROUGH.md) for what each part does.
